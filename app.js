@@ -68,7 +68,7 @@ function checkSequence(idx) {
         if(level > highestScore){
             highestScore = level;
         }
-        h2.innerHTML = `Game Over! <br><br> Your score was <span style="color: red;"><b>${level}</b></span> <br><br> Highest Score ${highestScore} <br><br><br> Press any key to Start.`;
+        h2.innerHTML = `Game Over!<br><br> Your score was <span style="color: red;"><b>${level}</b></span> &nbsp;&nbsp;&nbsp;&nbsp; Highest Score ${highestScore} <br><br> Press any key to Restart !`;
         
         document.querySelector("body").style.backgroundColor = "red";
         // flash whole screen red !

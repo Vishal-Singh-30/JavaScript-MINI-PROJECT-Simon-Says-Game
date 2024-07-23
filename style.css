@@ -12,9 +12,9 @@ body{
 
 .btn{
     margin: 2rem;
-    height: 200px;
-    width: 200px;
-    border: 10px solid black;
+    height: 150px;
+    width: 150px;
+    border: 7px solid black;
     border-radius: 20%;
     cursor: pointer;
 
